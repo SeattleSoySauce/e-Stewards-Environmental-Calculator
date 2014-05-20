@@ -14,15 +14,13 @@
 		9614417D192AD349003B800D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9614417C192AD349003B800D /* main.m */; };
 		96144181192AD349003B800D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96144180192AD349003B800D /* AppDelegate.m */; };
 		96144184192AD349003B800D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96144182192AD349003B800D /* Main.storyboard */; };
-		96144187192AD349003B800D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96144186192AD349003B800D /* FirstViewController.m */; };
-		9614418A192AD349003B800D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96144189192AD349003B800D /* SecondViewController.m */; };
 		9614418C192AD349003B800D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9614418B192AD349003B800D /* Images.xcassets */; };
 		96144193192AD349003B800D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96144192192AD349003B800D /* XCTest.framework */; };
 		96144194192AD349003B800D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96144170192AD349003B800D /* Foundation.framework */; };
 		96144195192AD349003B800D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96144174192AD349003B800D /* UIKit.framework */; };
 		9614419D192AD349003B800D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9614419B192AD349003B800D /* InfoPlist.strings */; };
 		9614419F192AD349003B800D /* e_Stewards_Environmental_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9614419E192AD349003B800D /* e_Stewards_Environmental_CalculatorTests.m */; };
-		961441AE192AD436003B800D /* RecycledMaterialObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 961441AD192AD436003B800D /* RecycledMaterialObject.m */; };
+		961441B1192AD56B003B800D /* RecycledMaterialObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 961441B0192AD56B003B800D /* RecycledMaterialObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,18 +45,14 @@
 		9614417F192AD349003B800D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96144180192AD349003B800D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		96144183192AD349003B800D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96144185192AD349003B800D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		96144186192AD349003B800D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		96144188192AD349003B800D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		96144189192AD349003B800D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		9614418B192AD349003B800D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96144191192AD349003B800D /* e-Stewards Environmental CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-Stewards Environmental CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96144192192AD349003B800D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9614419A192AD349003B800D /* e-Stewards Environmental CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "e-Stewards Environmental CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		9614419C192AD349003B800D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9614419E192AD349003B800D /* e_Stewards_Environmental_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = e_Stewards_Environmental_CalculatorTests.m; sourceTree = "<group>"; };
-		961441AC192AD436003B800D /* RecycledMaterialObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecycledMaterialObject.h; sourceTree = "<group>"; };
-		961441AD192AD436003B800D /* RecycledMaterialObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecycledMaterialObject.m; sourceTree = "<group>"; };
+		961441AF192AD56B003B800D /* RecycledMaterialObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecycledMaterialObject.h; path = Model/RecycledMaterialObject.h; sourceTree = "<group>"; };
+		961441B0192AD56B003B800D /* RecycledMaterialObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecycledMaterialObject.m; path = Model/RecycledMaterialObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,8 +155,8 @@
 		961441A8192AD36D003B800D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				961441AC192AD436003B800D /* RecycledMaterialObject.h */,
-				961441AD192AD436003B800D /* RecycledMaterialObject.m */,
+				961441AF192AD56B003B800D /* RecycledMaterialObject.h */,
+				961441B0192AD56B003B800D /* RecycledMaterialObject.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -170,10 +164,6 @@
 		961441A9192AD376003B800D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				96144185192AD349003B800D /* FirstViewController.h */,
-				96144186192AD349003B800D /* FirstViewController.m */,
-				96144188192AD349003B800D /* SecondViewController.h */,
-				96144189192AD349003B800D /* SecondViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -283,10 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9614418A192AD349003B800D /* SecondViewController.m in Sources */,
+				961441B1192AD56B003B800D /* RecycledMaterialObject.m in Sources */,
 				96144181192AD349003B800D /* AppDelegate.m in Sources */,
-				96144187192AD349003B800D /* FirstViewController.m in Sources */,
-				961441AE192AD436003B800D /* RecycledMaterialObject.m in Sources */,
 				9614417D192AD349003B800D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
