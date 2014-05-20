@@ -21,6 +21,7 @@
 		9614419D192AD349003B800D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9614419B192AD349003B800D /* InfoPlist.strings */; };
 		9614419F192AD349003B800D /* e_Stewards_Environmental_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9614419E192AD349003B800D /* e_Stewards_Environmental_CalculatorTests.m */; };
 		961441B1192AD56B003B800D /* RecycledMaterialObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 961441B0192AD56B003B800D /* RecycledMaterialObject.m */; };
+		961441B4192AD74F003B800D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961441B3192AD74F003B800D /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9614419E192AD349003B800D /* e_Stewards_Environmental_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = e_Stewards_Environmental_CalculatorTests.m; sourceTree = "<group>"; };
 		961441AF192AD56B003B800D /* RecycledMaterialObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecycledMaterialObject.h; path = Model/RecycledMaterialObject.h; sourceTree = "<group>"; };
 		961441B0192AD56B003B800D /* RecycledMaterialObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecycledMaterialObject.m; path = Model/RecycledMaterialObject.m; sourceTree = "<group>"; };
+		961441B2192AD74F003B800D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewController/MainViewController.h; sourceTree = "<group>"; };
+		961441B3192AD74F003B800D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewController/MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,8 @@
 		961441A9192AD376003B800D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				961441B2192AD74F003B800D /* MainViewController.h */,
+				961441B3192AD74F003B800D /* MainViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				961441B1192AD56B003B800D /* RecycledMaterialObject.m in Sources */,
 				96144181192AD349003B800D /* AppDelegate.m in Sources */,
 				9614417D192AD349003B800D /* main.m in Sources */,
+				961441B4192AD74F003B800D /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
