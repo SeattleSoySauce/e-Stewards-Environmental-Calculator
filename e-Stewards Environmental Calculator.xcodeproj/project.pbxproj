@@ -22,6 +22,7 @@
 		9614419F192AD349003B800D /* e_Stewards_Environmental_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9614419E192AD349003B800D /* e_Stewards_Environmental_CalculatorTests.m */; };
 		961441B1192AD56B003B800D /* RecycledMaterialObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 961441B0192AD56B003B800D /* RecycledMaterialObject.m */; };
 		961441B4192AD74F003B800D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961441B3192AD74F003B800D /* MainViewController.m */; };
+		961441B7192ADBA2003B800D /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 961441B6192ADBA2003B800D /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		961441B0192AD56B003B800D /* RecycledMaterialObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecycledMaterialObject.m; path = Model/RecycledMaterialObject.m; sourceTree = "<group>"; };
 		961441B2192AD74F003B800D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewController/MainViewController.h; sourceTree = "<group>"; };
 		961441B3192AD74F003B800D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewController/MainViewController.m; sourceTree = "<group>"; };
+		961441B5192ADBA2003B800D /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calculator.h; path = Model/Calculator.h; sourceTree = "<group>"; };
+		961441B6192ADBA2003B800D /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calculator.m; path = Model/Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 			children = (
 				961441AF192AD56B003B800D /* RecycledMaterialObject.h */,
 				961441B0192AD56B003B800D /* RecycledMaterialObject.m */,
+				961441B5192ADBA2003B800D /* Calculator.h */,
+				961441B6192ADBA2003B800D /* Calculator.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				96144181192AD349003B800D /* AppDelegate.m in Sources */,
 				9614417D192AD349003B800D /* main.m in Sources */,
 				961441B4192AD74F003B800D /* MainViewController.m in Sources */,
+				961441B7192ADBA2003B800D /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
